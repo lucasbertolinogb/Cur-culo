@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Curriculo</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body> 
+  <!--dica apague widht e height e compare a imagem sem nada e ´´normal`` -->
+  <img src="img/lucas.jpg" alt="Lucas da deep web-´´vale mais uma moeda que dois mamacos digitando``" width="150" height="50">  
+  <!--parei de brincar , voltando ao assunto de web-currículo -->
+    <!--div sobre dados pessoais-->
+  <div>
+   <h2>Dados Pessoais:</h2>           
+     <p>Nome Completo: Lucas Bertolino Santos Costa</p>
+     <p>Data de nascimento: 13/05/2003 </p>
+     <p>Endereço: Rua Gerlu Vervloet Dos Santos ,280 , Espirito Santo ,Vitória</p>
+     <p>Telefones: 3337-0319 (residêncial) , (27) 992755887 (celular)</p>
+     <p>Email: lucasbsantosc@gmail.com</p>
+  </div>
+  <!--div sobre objetivo  -->
+  <div>
+    <h2>Objetivo:</h2>
+      <p>Atuar na TI</p>
+  </div>
+     <!--div do histórico escolar-->
+  <div>
+ <h2>Formação Acadêmica</h2>
+  <p>Em 2022:<a href="https://uvv.br/">UVV</a> (em endamento)</p>  
+   <a href="https://uvv.br/"> <img src="img/uvv.png" alt="logo da uvv" width="150" height="50"> </a>
+ </div>
+  <!--div sobre experiencia profissional-->
+    <h2>Experiência Profissional:</h2>
+      <p>Nenhuma</p>     
+  <!--div sobre Cursos e qualificações-->
+  <div>
+    <h2>Cursos e Qualificações:</h2>
+     <p>Inglês: Intermediário (leitura) e básico (conversa)</p>
+     <p>Espanhol: Básico (leitura e conversa)</p>
+     <p><a href="https://grasshopper.app/pt_br/"> Grasshouper</a>:iniciante </p>
+  </div>
+    <!--div do IMC-->
+  <div>
+     <h2>Projetos feitos em web:</h2>  
+     * Calculando o IMC:
+      <form>
+    Peso: <input id="p" type="number" name="peso" class="botao1" value="80" > <br>
+    Altura: <input id="a" type="number" name="altura" class="botao1" value="1.7" > <br>
+  </form>
+    <button onclick="imc()" class="botao">Calcular</button>
+  <div id="out" style="display:none;">
+    Seu IMC é:
+  </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
